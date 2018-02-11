@@ -1,0 +1,122 @@
+.how-it-works {
+margin-top: 579px;
+  @media screen and (min-width: 420px) {
+    margin-top: 796px;
+  }
+}
+
+.middle-size-caption {
+  color: #282828;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Montserrat Bold", sans-serif;
+}
+
+.step-block-wrapper {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  @media screen and (min-width: 650px){
+    flex-direction: row;
+    margin-top: 35px;
+  }
+}
+
+.step-block {
+  height: 239px;
+  //box-shadow:0 0 0 1000px rgba(0, 0, 0, 0.33) inset;
+  position: relative;
+  overflow: hidden;
+  margin: 5px 10px;
+  width: 60%;
+  min-width: 300px;
+  @media screen and (min-width:650px) {
+    min-width: 0;
+  }
+  @media screen and (min-width:750px) {
+    height: 400px;
+    margin: 0 10px;
+    width: 31.5%;
+  }
+
+  @media screen and (min-width: 970px) {
+    margin: 0;
+    width: 31.9%;
+  }
+  &:hover {
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  }
+}
+
+.block__link {
+  text-decoration: none;
+}
+
+
+.block-img {
+  position: absolute;
+  //margin-left: -185px;
+  //width: 100%;
+  //top: -90px;
+}
+
+.step {
+  color: #fff;
+  font-size: 11px;
+  font-family: "Montserrat Regular", sans-serif;
+  background-color: #e85656;
+  padding: 4px 11px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin-left: 3px;
+}
+
+.step-block__article {
+  position: absolute;
+  color: #fff;
+  line-height:1.2;
+  padding: 68px 19px 20px;
+  background: linear-gradient(0deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0) 100%);
+  max-width: 300px;
+  @media screen and (min-width: 420px){
+    padding: 214px 20px 20px;
+  }
+  @media screen and (min-width: 769px) {
+    padding: 231px 20px;
+  }
+}
+
+
+.step-block__header {
+  margin-top: 16px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Montserrat Bold", sans-serif;
+}
+
+.step-block__caption {
+  margin-top: 14px;
+  font-family: "Roboto Thin", sans-serif;
+  font-size: 14px;
+
+}
+
+.step-2 {
+  padding: 99px 18px 20px;
+  @media screen and (min-width: 420px) {
+    padding: 260px 19px 20px;
+  }
+  @media screen and(min-width: 769px) {
+    padding: 260px 19px 20px;
+  }
+}
+
+.step-3__img {
+  margin-left: 0;
+}
+

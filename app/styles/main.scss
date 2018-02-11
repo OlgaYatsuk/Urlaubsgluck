@@ -1,0 +1,65 @@
+// bower:scss
+@import "bower_components/reset-css/_reset.scss";
+// endbower
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Montserrat Bold';
+  src: url('../fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Black';
+  src: url('../fonts/Roboto-Black.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto-Bold';
+  src: url('../fonts/Roboto-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Montserrat Regular';
+  src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Light';
+  src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+  font-family: 'Roboto Thin';
+  src: url('../fonts/Roboto-Thin.ttf');
+}
+body {
+  //max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+
+@import 'blocks/header';
+@import 'blocks/promo-wrapper';
+@import 'blocks/how-it-works';
+@import 'blocks/partners';
+@import 'blocks/ideas';
+@import 'blocks/ideas-search';
+@import 'blocks/footer';
+
